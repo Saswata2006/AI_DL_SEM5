@@ -1,0 +1,7 @@
+model,MAE,RMSE,WAPE,pinball_0.1,pinball_0.5,pinball_0.9,pinball_avg,coverage_P10_P90
+Seasonal naive (lag-7),1.94,4.31,0.623,,,,,
+Seasonal naive (lag-28),1.992,4.511,0.639,,,,,
+Gradient boosting,1.763,3.672,0.566,,,,,
+Kalman (level+trend),2.445,6.475,0.785,0.307,1.223,0.89,0.807,0.945
+Kalman (+weekly),2.108,5.025,0.676,0.304,1.054,0.837,0.732,0.95
+Global LSTM (quantile),1.555,3.533,0.499,0.29,0.778,0.489,0.519,0.812

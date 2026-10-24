@@ -1,0 +1,241 @@
+model,item_id,MAE,RMSE,WAPE,pinball_0.1,pinball_0.5,pinball_0.9,pinball_avg,coverage_P10_P90
+Global LSTM (quantile),FOODS_1_034,0.364,0.772,1.02,0.036,0.182,0.168,0.129,0.812
+Global LSTM (quantile),FOODS_1_055,2.494,4.657,0.916,0.274,1.247,1.184,0.901,0.759
+Global LSTM (quantile),FOODS_1_172,1.62,2.102,0.547,0.296,0.81,0.476,0.527,0.902
+Global LSTM (quantile),FOODS_1_174,1.115,1.657,0.771,0.145,0.557,0.378,0.36,0.795
+Global LSTM (quantile),FOODS_1_180,1.322,2.549,0.981,0.135,0.661,0.58,0.459,0.821
+Global LSTM (quantile),FOODS_1_209,0.501,0.986,1.517,0.033,0.251,0.319,0.201,0.768
+Global LSTM (quantile),FOODS_2_013,1.909,2.451,0.504,0.378,0.955,0.5,0.611,0.848
+Global LSTM (quantile),FOODS_2_026,1.051,1.512,1.061,0.1,0.526,0.307,0.311,0.768
+Global LSTM (quantile),FOODS_2_043,1.036,1.542,0.789,0.131,0.518,0.32,0.323,0.741
+Global LSTM (quantile),FOODS_2_054,1.667,2.179,0.644,0.259,0.834,0.469,0.521,0.848
+Global LSTM (quantile),FOODS_2_083,0.812,1.05,0.928,0.088,0.406,0.189,0.228,0.857
+Global LSTM (quantile),FOODS_2_109,1.155,1.378,0.761,0.153,0.577,0.267,0.332,0.759
+Global LSTM (quantile),FOODS_2_163,0.367,0.759,1.026,0.036,0.183,0.167,0.129,0.848
+Global LSTM (quantile),FOODS_2_164,1.284,1.787,0.882,0.146,0.642,0.397,0.395,0.795
+Global LSTM (quantile),FOODS_2_225,1.325,1.697,0.888,0.15,0.662,0.347,0.386,0.696
+Global LSTM (quantile),FOODS_2_237,1.1,1.546,0.913,0.121,0.55,0.281,0.317,0.848
+Global LSTM (quantile),FOODS_2_263,0.56,0.799,1.011,0.056,0.28,0.178,0.171,0.848
+Global LSTM (quantile),FOODS_3_081,0.615,1.023,1.043,0.059,0.307,0.204,0.19,0.848
+Global LSTM (quantile),FOODS_3_090,14.014,17.654,0.262,4.643,7.007,3.857,5.169,0.938
+Global LSTM (quantile),FOODS_3_146,1.051,1.367,0.957,0.11,0.526,0.283,0.306,0.777
+Global LSTM (quantile),FOODS_3_155,0.862,1.63,0.946,0.091,0.431,0.349,0.291,0.857
+Global LSTM (quantile),FOODS_3_242,0.893,1.318,0.901,0.1,0.446,0.273,0.273,0.75
+Global LSTM (quantile),FOODS_3_280,0.57,0.856,1.119,0.051,0.285,0.186,0.174,0.786
+Global LSTM (quantile),FOODS_3_308,0.886,1.276,1.418,0.064,0.443,0.268,0.258,0.732
+Global LSTM (quantile),FOODS_3_365,1.127,1.593,0.761,0.149,0.564,0.32,0.344,0.75
+Global LSTM (quantile),FOODS_3_376,2.858,4.031,0.54,0.528,1.429,0.887,0.948,0.866
+Global LSTM (quantile),FOODS_3_388,0.991,1.244,0.816,0.122,0.496,0.253,0.29,0.714
+Global LSTM (quantile),FOODS_3_395,0.695,1.021,1.066,0.065,0.347,0.208,0.207,0.786
+Global LSTM (quantile),FOODS_3_412,2.146,4.835,0.921,0.234,1.073,1.107,0.805,0.732
+Global LSTM (quantile),FOODS_3_477,2.088,2.714,0.39,0.484,1.044,0.62,0.716,0.893
+Global LSTM (quantile),FOODS_3_480,1.02,1.446,1.039,0.099,0.51,0.306,0.305,0.75
+Global LSTM (quantile),FOODS_3_506,0.164,0.385,1.079,0.015,0.082,0.109,0.069,0.902
+Global LSTM (quantile),FOODS_3_528,0.209,0.522,1.019,0.021,0.105,0.114,0.08,0.866
+Global LSTM (quantile),FOODS_3_631,1.245,1.713,0.856,0.146,0.623,0.403,0.391,0.759
+Global LSTM (quantile),FOODS_3_655,1.504,2.057,0.962,0.157,0.752,0.438,0.449,0.777
+Global LSTM (quantile),FOODS_3_664,0.872,1.212,0.794,0.11,0.436,0.283,0.276,0.777
+Global LSTM (quantile),FOODS_3_686,0.766,0.983,0.912,0.084,0.383,0.214,0.227,0.821
+Global LSTM (quantile),FOODS_3_723,4.609,6.215,0.37,1.149,2.305,1.433,1.629,0.929
+Global LSTM (quantile),FOODS_3_769,2.151,2.815,0.544,0.395,1.075,0.621,0.697,0.83
+Global LSTM (quantile),FOODS_3_793,1.194,1.469,0.576,0.207,0.597,0.298,0.367,0.929
+Gradient boosting,FOODS_1_034,0.809,0.903,2.264,,,,,
+Gradient boosting,FOODS_1_055,2.582,4.602,0.948,,,,,
+Gradient boosting,FOODS_1_172,1.562,2.055,0.527,,,,,
+Gradient boosting,FOODS_1_174,1.148,1.597,0.793,,,,,
+Gradient boosting,FOODS_1_180,1.51,2.49,1.12,,,,,
+Gradient boosting,FOODS_1_209,0.949,1.078,2.871,,,,,
+Gradient boosting,FOODS_2_013,1.963,2.576,0.519,,,,,
+Gradient boosting,FOODS_2_026,1.124,1.384,1.134,,,,,
+Gradient boosting,FOODS_2_043,0.997,1.338,0.76,,,,,
+Gradient boosting,FOODS_2_054,1.7,2.17,0.657,,,,,
+Gradient boosting,FOODS_2_083,0.804,0.956,0.919,,,,,
+Gradient boosting,FOODS_2_109,1.172,1.416,0.772,,,,,
+Gradient boosting,FOODS_2_163,0.783,0.876,2.193,,,,,
+Gradient boosting,FOODS_2_164,1.4,1.751,0.962,,,,,
+Gradient boosting,FOODS_2_225,1.307,1.584,0.877,,,,,
+Gradient boosting,FOODS_2_237,1.063,1.37,0.882,,,,,
+Gradient boosting,FOODS_2_263,0.778,0.908,1.406,,,,,
+Gradient boosting,FOODS_3_081,0.831,0.974,1.41,,,,,
+Gradient boosting,FOODS_3_090,14.424,18.306,0.27,,,,,
+Gradient boosting,FOODS_3_146,1.139,1.369,1.037,,,,,
+Gradient boosting,FOODS_3_155,1.039,1.581,1.14,,,,,
+Gradient boosting,FOODS_3_242,0.894,1.207,0.902,,,,,
+Gradient boosting,FOODS_3_280,0.775,0.902,1.523,,,,,
+Gradient boosting,FOODS_3_308,1.008,1.18,1.612,,,,,
+Gradient boosting,FOODS_3_365,1.104,1.459,0.745,,,,,
+Gradient boosting,FOODS_3_376,2.922,3.845,0.552,,,,,
+Gradient boosting,FOODS_3_388,1.029,1.242,0.848,,,,,
+Gradient boosting,FOODS_3_395,0.785,0.93,1.205,,,,,
+Gradient boosting,FOODS_3_412,3.666,4.994,1.573,,,,,
+Gradient boosting,FOODS_3_477,2.252,2.804,0.42,,,,,
+Gradient boosting,FOODS_3_480,1.159,1.4,1.18,,,,,
+Gradient boosting,FOODS_3_506,0.741,0.804,4.879,,,,,
+Gradient boosting,FOODS_3_528,0.764,0.845,3.72,,,,,
+Gradient boosting,FOODS_3_631,1.303,1.705,0.895,,,,,
+Gradient boosting,FOODS_3_655,1.832,2.249,1.173,,,,,
+Gradient boosting,FOODS_3_664,1.04,1.291,0.947,,,,,
+Gradient boosting,FOODS_3_686,0.777,0.989,0.926,,,,,
+Gradient boosting,FOODS_3_723,6.02,7.461,0.483,,,,,
+Gradient boosting,FOODS_3_769,2.189,2.839,0.553,,,,,
+Gradient boosting,FOODS_3_793,1.197,1.479,0.578,,,,,
+Kalman (+weekly),FOODS_1_034,0.591,0.86,1.654,0.036,0.295,0.228,0.186,0.946
+Kalman (+weekly),FOODS_1_055,3.299,4.726,1.212,0.278,1.65,1.104,1.011,0.911
+Kalman (+weekly),FOODS_1_172,2.869,3.739,0.968,0.306,1.435,0.789,0.843,0.911
+Kalman (+weekly),FOODS_1_174,1.431,1.922,0.99,0.153,0.716,0.444,0.438,0.866
+Kalman (+weekly),FOODS_1_180,1.272,2.565,0.944,0.135,0.636,0.627,0.466,0.929
+Kalman (+weekly),FOODS_1_209,0.542,1.016,1.64,0.033,0.271,0.301,0.202,0.946
+Kalman (+weekly),FOODS_2_013,2.664,3.415,0.704,0.38,1.332,0.76,0.824,0.893
+Kalman (+weekly),FOODS_2_026,1.085,1.531,1.094,0.099,0.542,0.423,0.355,0.938
+Kalman (+weekly),FOODS_2_043,0.993,1.439,0.757,0.131,0.497,0.349,0.326,0.946
+Kalman (+weekly),FOODS_2_054,2.406,3.071,0.929,0.258,1.203,0.639,0.7,0.955
+Kalman (+weekly),FOODS_2_083,0.808,1.101,0.924,0.088,0.404,0.303,0.265,0.955
+Kalman (+weekly),FOODS_2_109,1.375,1.661,0.906,0.155,0.688,0.449,0.43,0.964
+Kalman (+weekly),FOODS_2_163,0.607,0.879,1.699,0.036,0.303,0.25,0.196,0.982
+Kalman (+weekly),FOODS_2_164,1.28,1.84,0.879,0.146,0.64,0.52,0.435,0.964
+Kalman (+weekly),FOODS_2_225,1.596,2.05,1.07,0.149,0.798,0.447,0.464,0.875
+Kalman (+weekly),FOODS_2_237,1.165,1.527,0.966,0.12,0.582,0.376,0.359,0.964
+Kalman (+weekly),FOODS_2_263,0.899,1.142,1.623,0.056,0.449,0.342,0.282,0.982
+Kalman (+weekly),FOODS_3_081,1.01,1.212,1.715,0.06,0.505,0.322,0.296,0.964
+Kalman (+weekly),FOODS_3_090,19.89,25.653,0.372,5.113,9.945,10.549,8.536,1.0
+Kalman (+weekly),FOODS_3_146,1.182,1.62,1.076,0.11,0.591,0.479,0.393,0.973
+Kalman (+weekly),FOODS_3_155,1.013,1.745,1.112,0.091,0.507,0.458,0.352,0.964
+Kalman (+weekly),FOODS_3_242,0.831,1.261,0.838,0.099,0.415,0.281,0.265,0.929
+Kalman (+weekly),FOODS_3_280,0.584,0.915,1.148,0.051,0.292,0.233,0.192,0.964
+Kalman (+weekly),FOODS_3_308,1.547,2.232,2.475,0.062,0.774,0.573,0.47,1.0
+Kalman (+weekly),FOODS_3_365,1.222,1.732,0.824,0.148,0.611,0.405,0.388,0.946
+Kalman (+weekly),FOODS_3_376,3.634,5.006,0.686,0.529,1.817,1.048,1.131,0.938
+Kalman (+weekly),FOODS_3_388,1.238,1.506,1.02,0.122,0.619,0.423,0.388,0.964
+Kalman (+weekly),FOODS_3_395,0.915,1.148,1.403,0.069,0.457,0.252,0.26,0.929
+Kalman (+weekly),FOODS_3_412,2.766,5.25,1.187,0.233,1.383,1.376,0.997,0.964
+Kalman (+weekly),FOODS_3_477,2.165,2.781,0.404,0.492,1.083,0.855,0.81,0.973
+Kalman (+weekly),FOODS_3_480,1.23,1.585,1.253,0.098,0.615,0.445,0.386,0.955
+Kalman (+weekly),FOODS_3_506,0.389,0.61,2.564,0.015,0.195,0.162,0.124,1.0
+Kalman (+weekly),FOODS_3_528,0.272,0.508,1.327,0.021,0.136,0.189,0.115,0.973
+Kalman (+weekly),FOODS_3_631,1.287,1.696,0.884,0.145,0.643,0.501,0.43,0.973
+Kalman (+weekly),FOODS_3_655,3.054,4.224,1.954,0.191,1.527,0.966,0.895,0.938
+Kalman (+weekly),FOODS_3_664,1.001,1.373,0.911,0.115,0.5,0.366,0.327,0.804
+Kalman (+weekly),FOODS_3_686,0.806,1.052,0.96,0.084,0.403,0.29,0.259,0.982
+Kalman (+weekly),FOODS_3_723,9.615,11.9,0.771,1.169,4.807,3.394,3.123,0.964
+Kalman (+weekly),FOODS_3_769,2.241,2.96,0.566,0.396,1.12,1.129,0.881,0.991
+Kalman (+weekly),FOODS_3_793,1.547,1.902,0.747,0.207,0.773,0.416,0.466,0.964
+Kalman (level+trend),FOODS_1_034,0.584,0.849,1.636,0.036,0.292,0.224,0.184,0.946
+Kalman (level+trend),FOODS_1_055,3.438,4.767,1.263,0.288,1.719,1.121,1.043,0.902
+Kalman (level+trend),FOODS_1_172,3.179,4.174,1.073,0.366,1.59,0.859,0.939,0.812
+Kalman (level+trend),FOODS_1_174,1.379,1.902,0.953,0.149,0.689,0.44,0.426,0.884
+Kalman (level+trend),FOODS_1_180,1.283,2.539,0.952,0.135,0.641,0.642,0.473,0.938
+Kalman (level+trend),FOODS_1_209,0.59,1.068,1.787,0.033,0.295,0.313,0.214,0.946
+Kalman (level+trend),FOODS_2_013,2.83,3.598,0.748,0.365,1.415,0.828,0.869,0.92
+Kalman (level+trend),FOODS_2_026,1.098,1.518,1.108,0.099,0.549,0.431,0.36,0.946
+Kalman (level+trend),FOODS_2_043,1.031,1.424,0.785,0.131,0.515,0.36,0.336,0.946
+Kalman (level+trend),FOODS_2_054,2.381,3.116,0.919,0.258,1.19,0.69,0.713,0.955
+Kalman (level+trend),FOODS_2_083,0.861,1.102,0.984,0.088,0.43,0.322,0.28,0.955
+Kalman (level+trend),FOODS_2_109,1.482,1.762,0.977,0.152,0.741,0.469,0.454,0.973
+Kalman (level+trend),FOODS_2_163,0.626,0.895,1.754,0.036,0.313,0.252,0.2,0.982
+Kalman (level+trend),FOODS_2_164,1.231,1.747,0.846,0.146,0.615,0.539,0.433,0.964
+Kalman (level+trend),FOODS_2_225,1.663,2.085,1.115,0.154,0.832,0.439,0.475,0.866
+Kalman (level+trend),FOODS_2_237,1.181,1.513,0.979,0.12,0.59,0.38,0.364,0.955
+Kalman (level+trend),FOODS_2_263,0.97,1.213,1.752,0.055,0.485,0.355,0.298,0.991
+Kalman (level+trend),FOODS_3_081,1.134,1.343,1.925,0.069,0.567,0.337,0.324,0.875
+Kalman (level+trend),FOODS_3_090,28.4,35.382,0.531,5.048,14.2,11.711,10.32,0.973
+Kalman (level+trend),FOODS_3_146,1.26,1.682,1.147,0.11,0.63,0.49,0.41,0.973
+Kalman (level+trend),FOODS_3_155,1.084,1.789,1.19,0.091,0.542,0.478,0.37,0.964
+Kalman (level+trend),FOODS_3_242,0.927,1.368,0.935,0.099,0.463,0.32,0.294,0.92
+Kalman (level+trend),FOODS_3_280,0.616,0.93,1.21,0.051,0.308,0.246,0.202,0.973
+Kalman (level+trend),FOODS_3_308,1.668,2.384,2.669,0.062,0.834,0.597,0.498,1.0
+Kalman (level+trend),FOODS_3_365,1.214,1.698,0.819,0.148,0.607,0.408,0.387,0.955
+Kalman (level+trend),FOODS_3_376,3.512,4.661,0.663,0.529,1.756,1.112,1.132,0.946
+Kalman (level+trend),FOODS_3_388,1.261,1.529,1.039,0.124,0.631,0.434,0.396,0.946
+Kalman (level+trend),FOODS_3_395,0.902,1.127,1.384,0.066,0.451,0.247,0.255,0.946
+Kalman (level+trend),FOODS_3_412,2.753,5.275,1.182,0.233,1.377,1.377,0.996,0.964
+Kalman (level+trend),FOODS_3_477,2.932,3.538,0.547,0.488,1.466,0.947,0.967,0.973
+Kalman (level+trend),FOODS_3_480,1.389,1.723,1.415,0.098,0.695,0.457,0.417,0.955
+Kalman (level+trend),FOODS_3_506,0.404,0.623,2.664,0.015,0.202,0.163,0.127,1.0
+Kalman (level+trend),FOODS_3_528,0.346,0.529,1.682,0.021,0.173,0.203,0.132,0.982
+Kalman (level+trend),FOODS_3_631,1.334,1.692,0.917,0.146,0.667,0.516,0.443,0.964
+Kalman (level+trend),FOODS_3_655,3.179,4.396,2.035,0.199,1.59,0.989,0.926,0.911
+Kalman (level+trend),FOODS_3_664,1.028,1.366,0.936,0.113,0.514,0.363,0.33,0.857
+Kalman (level+trend),FOODS_3_686,0.799,1.045,0.952,0.084,0.399,0.296,0.26,0.991
+Kalman (level+trend),FOODS_3_723,12.002,14.277,0.962,1.292,6.001,3.635,3.643,0.902
+Kalman (level+trend),FOODS_3_769,2.333,2.994,0.59,0.396,1.167,1.149,0.904,0.991
+Kalman (level+trend),FOODS_3_793,1.529,1.893,0.738,0.207,0.765,0.461,0.478,0.964
+Seasonal naive (lag-28),FOODS_1_034,0.589,1.018,1.65,,,,,
+Seasonal naive (lag-28),FOODS_1_055,3.0,5.769,1.102,,,,,
+Seasonal naive (lag-28),FOODS_1_172,2.438,3.192,0.822,,,,,
+Seasonal naive (lag-28),FOODS_1_174,1.509,2.165,1.043,,,,,
+Seasonal naive (lag-28),FOODS_1_180,1.821,3.279,1.351,,,,,
+Seasonal naive (lag-28),FOODS_1_209,0.607,1.188,1.838,,,,,
+Seasonal naive (lag-28),FOODS_2_013,2.58,3.366,0.682,,,,,
+Seasonal naive (lag-28),FOODS_2_026,1.321,1.95,1.333,,,,,
+Seasonal naive (lag-28),FOODS_2_043,1.25,1.808,0.952,,,,,
+Seasonal naive (lag-28),FOODS_2_054,2.188,2.966,0.845,,,,,
+Seasonal naive (lag-28),FOODS_2_083,1.018,1.389,1.163,,,,,
+Seasonal naive (lag-28),FOODS_2_109,1.589,2.018,1.047,,,,,
+Seasonal naive (lag-28),FOODS_2_163,0.554,1.0,1.55,,,,,
+Seasonal naive (lag-28),FOODS_2_164,1.571,2.167,1.08,,,,,
+Seasonal naive (lag-28),FOODS_2_225,1.643,2.192,1.102,,,,,
+Seasonal naive (lag-28),FOODS_2_237,1.321,1.753,1.096,,,,,
+Seasonal naive (lag-28),FOODS_2_263,0.786,1.102,1.419,,,,,
+Seasonal naive (lag-28),FOODS_3_081,0.848,1.278,1.439,,,,,
+Seasonal naive (lag-28),FOODS_3_090,16.455,22.23,0.308,,,,,
+Seasonal naive (lag-28),FOODS_3_146,1.25,1.768,1.138,,,,,
+Seasonal naive (lag-28),FOODS_3_155,1.375,2.364,1.51,,,,,
+Seasonal naive (lag-28),FOODS_3_242,0.991,1.424,1.0,,,,,
+Seasonal naive (lag-28),FOODS_3_280,0.679,1.094,1.333,,,,,
+Seasonal naive (lag-28),FOODS_3_308,0.946,1.458,1.514,,,,,
+Seasonal naive (lag-28),FOODS_3_365,1.652,2.218,1.114,,,,,
+Seasonal naive (lag-28),FOODS_3_376,3.384,4.729,0.639,,,,,
+Seasonal naive (lag-28),FOODS_3_388,1.339,1.727,1.103,,,,,
+Seasonal naive (lag-28),FOODS_3_395,0.795,1.138,1.219,,,,,
+Seasonal naive (lag-28),FOODS_3_412,3.161,6.637,1.356,,,,,
+Seasonal naive (lag-28),FOODS_3_477,2.714,3.791,0.507,,,,,
+Seasonal naive (lag-28),FOODS_3_480,1.402,1.971,1.427,,,,,
+Seasonal naive (lag-28),FOODS_3_506,0.214,0.463,1.412,,,,,
+Seasonal naive (lag-28),FOODS_3_528,0.411,0.791,2.0,,,,,
+Seasonal naive (lag-28),FOODS_3_631,1.804,2.468,1.239,,,,,
+Seasonal naive (lag-28),FOODS_3_655,2.152,3.147,1.377,,,,,
+Seasonal naive (lag-28),FOODS_3_664,1.33,1.873,1.211,,,,,
+Seasonal naive (lag-28),FOODS_3_686,0.911,1.296,1.085,,,,,
+Seasonal naive (lag-28),FOODS_3_723,5.652,7.801,0.453,,,,,
+Seasonal naive (lag-28),FOODS_3_769,2.875,3.713,0.727,,,,,
+Seasonal naive (lag-28),FOODS_3_793,1.536,2.07,0.741,,,,,
+Seasonal naive (lag-7),FOODS_1_034,0.536,0.906,1.5,,,,,
+Seasonal naive (lag-7),FOODS_1_055,2.938,5.171,1.079,,,,,
+Seasonal naive (lag-7),FOODS_1_172,2.411,3.303,0.813,,,,,
+Seasonal naive (lag-7),FOODS_1_174,1.518,2.151,1.049,,,,,
+Seasonal naive (lag-7),FOODS_1_180,1.491,2.694,1.106,,,,,
+Seasonal naive (lag-7),FOODS_1_209,0.562,1.13,1.703,,,,,
+Seasonal naive (lag-7),FOODS_2_013,2.518,3.218,0.665,,,,,
+Seasonal naive (lag-7),FOODS_2_026,1.277,1.83,1.288,,,,,
+Seasonal naive (lag-7),FOODS_2_043,1.188,1.76,0.905,,,,,
+Seasonal naive (lag-7),FOODS_2_054,2.304,3.024,0.89,,,,,
+Seasonal naive (lag-7),FOODS_2_083,0.982,1.302,1.122,,,,,
+Seasonal naive (lag-7),FOODS_2_109,1.554,1.936,1.024,,,,,
+Seasonal naive (lag-7),FOODS_2_163,0.464,0.906,1.3,,,,,
+Seasonal naive (lag-7),FOODS_2_164,1.42,1.844,0.975,,,,,
+Seasonal naive (lag-7),FOODS_2_225,1.527,2.02,1.024,,,,,
+Seasonal naive (lag-7),FOODS_2_237,1.205,1.703,1.0,,,,,
+Seasonal naive (lag-7),FOODS_2_263,0.768,1.069,1.387,,,,,
+Seasonal naive (lag-7),FOODS_3_081,0.911,1.343,1.545,,,,,
+Seasonal naive (lag-7),FOODS_3_090,15.054,20.456,0.281,,,,,
+Seasonal naive (lag-7),FOODS_3_146,1.259,1.765,1.146,,,,,
+Seasonal naive (lag-7),FOODS_3_155,1.196,2.126,1.314,,,,,
+Seasonal naive (lag-7),FOODS_3_242,0.92,1.411,0.928,,,,,
+Seasonal naive (lag-7),FOODS_3_280,0.67,1.031,1.316,,,,,
+Seasonal naive (lag-7),FOODS_3_308,1.071,1.701,1.714,,,,,
+Seasonal naive (lag-7),FOODS_3_365,1.393,1.899,0.94,,,,,
+Seasonal naive (lag-7),FOODS_3_376,3.759,5.133,0.71,,,,,
+Seasonal naive (lag-7),FOODS_3_388,1.125,1.564,0.926,,,,,
+Seasonal naive (lag-7),FOODS_3_395,0.973,1.326,1.493,,,,,
+Seasonal naive (lag-7),FOODS_3_412,3.527,7.319,1.513,,,,,
+Seasonal naive (lag-7),FOODS_3_477,2.571,3.407,0.48,,,,,
+Seasonal naive (lag-7),FOODS_3_480,1.357,1.959,1.382,,,,,
+Seasonal naive (lag-7),FOODS_3_506,0.33,0.575,2.176,,,,,
+Seasonal naive (lag-7),FOODS_3_528,0.348,0.688,1.696,,,,,
+Seasonal naive (lag-7),FOODS_3_631,1.83,2.596,1.258,,,,,
+Seasonal naive (lag-7),FOODS_3_655,2.223,3.429,1.423,,,,,
+Seasonal naive (lag-7),FOODS_3_664,1.205,1.693,1.098,,,,,
+Seasonal naive (lag-7),FOODS_3_686,1.036,1.458,1.234,,,,,
+Seasonal naive (lag-7),FOODS_3_723,6.312,8.497,0.506,,,,,
+Seasonal naive (lag-7),FOODS_3_769,2.384,3.245,0.603,,,,,
+Seasonal naive (lag-7),FOODS_3_793,1.482,1.941,0.716,,,,,
